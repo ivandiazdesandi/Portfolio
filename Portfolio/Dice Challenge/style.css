@@ -1,0 +1,55 @@
+/****************General Selectors**************/
+
+body{
+    background-color: rgb(57, 72, 103);
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    color: #27E1C1;
+    font-family: 'Lobster', cursive;
+}
+
+h2{
+    color: #27E1C1;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 15px;
+}
+
+/****************Class Selectors**************/
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.d1{
+    padding-left: 500px;
+}
+
+.d2{
+   padding-right: 500px;
+}
+.dic1, .dic2{
+    width: 80%;
+}
+.ft{
+    padding-top: 8rem;
+    color: #27E1C1;
+    font-family: 'Indie Flower', cursive;
+}
+
+/****************Media Query**************/
+
+@media(max-widht: 1360px){
+    .dic1, .dic2{
+        width: 100%;
+    }
+}
+
+@media(max-widht: 1250px){
+    .dic1, .dic2{
+        width: 120%;
+    }
+}
